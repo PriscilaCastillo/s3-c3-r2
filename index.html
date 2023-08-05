@@ -5,41 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <div>
-        <h1>Formulario de contacto</h1>
-        <form action="">
-            <div>
+        <form action="" class="form-contact">
+            <h1>Formulario de contacto</h1>
+            <div class="form-txt">
                 <label for="user">Nombre*</label>
-                <div>
-                    <input id="user" name="user" type="text" placeholder="Escribe tu nombre" required>
-                </div>
+
+                <input id="user" name="user" type="text" placeholder="Escribe tu nombre" required>
+
             </div>
-            <div>
+            <div class="form-txt">
                 <label for="usermail">Email*</label>
-                <div>
-                    <input id="usermail" name="usermail" type="email" placeholder="Escribe tu Email" required>
-                </div>
+
+                <input id="usermail" name="usermail" type="email" placeholder="Escribe tu Email" required>
+
             </div>
-            <div>
+            <div class="form-txt">
                 <label for="phone">Telefono</label>
-                <div>
-                    <input id="phone" name="phone" type="text" maxlength="15" placeholder="Escribe tu telefono">
-                </div>
+
+                <input id="phone" name="phone" type="text" maxlength="15" placeholder="Escribe tu telefono">
+
             </div>
-            <div>
+            <div class="form-txt">
                 <label for="website">Sitio web</label>
-                <div>
-                    <input id="website" name="website" type="url" placeholder="Escribe la URL de tu web">
-                </div>
+
+                <input id="website" name="website" type="url" placeholder="Escribe la URL de tu web">
+
             </div>
-            <div>
+            <div class="form-txt">
                 <label for="asunto">Asunto*</label>
-                <div>
-                    <textarea name="" id="" cols="30" rows="3" wrap="hard" placeholder="Deja aqui tu comentario"></textarea>
-                </div>
+
+                <textarea name="" id="" cols="30" rows="3" wrap="hard" placeholder="Deja aqui tu comentario"></textarea>
+
             </div>
 
             <button type="submit">Enviar</button>
@@ -49,8 +50,6 @@
             </div>
         </form>
     </div>
-
-
 </body>
 
 </html>
